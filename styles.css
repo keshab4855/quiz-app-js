@@ -1,0 +1,48 @@
+body {
+  background: grey;
+}
+
+.container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+  font-size: x-large;
+  color: rgba(37, 34, 199, 0.703);
+  font-family: "Inknut Antiqua", serif;
+}
+
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background: grey;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: x-large;
+  padding: 1rem 3rem;
+  color: beige;
+  cursor: pointer;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.play {
+  background: rgb(90, 215, 90);
+  border-radius: 20px;
+}
+
+.highscore {
+  background: rgb(236, 114, 114);
+  border-radius: 20px;
+}
